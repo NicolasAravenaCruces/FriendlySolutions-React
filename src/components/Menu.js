@@ -2,7 +2,12 @@ import React from "react";
 import './style.css'
 import logo from "../imagenes/logoblanco.png"
 
+
+
 const Menu=()=>{
+    
+    
+    
     return(
         <nav id="menu" class="navbar navbar-expand-lg color-menu ">
             <div class="container">
@@ -20,7 +25,7 @@ const Menu=()=>{
                             <a class="nav-link active" aria-current="page" href="/#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/#">Como Reciclar</a>
+                            <a class="nav-link" href="/menu">Como Reciclar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/#">Nosotros</a>
