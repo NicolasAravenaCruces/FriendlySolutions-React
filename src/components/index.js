@@ -1,10 +1,6 @@
-import Menu from "./Menu";
-import Bajada from "./Bajada";
-import Footer from "./Footer";
+import Login from "./Login"
 
 export{
-    Menu,
-    Bajada,
-    Footer
+   Login
     
 }

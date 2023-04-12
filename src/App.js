@@ -1,9 +1,7 @@
 import React from "react";
 import {BrowserRouter,Routes,Route} from "react-router-dom"
-import AdminPage from "./pages/AdminPage";
-import MenuPage from "./pages/MenuPage";
-import BajadaPage from "./pages/BajadaPage";
-import FooterPage from "./pages/FooterPage";
+
+import LoginPage from "./pages/LoginPage";
 
 
 
@@ -13,10 +11,9 @@ const App = () => {
     return(
         <BrowserRouter>
         <Routes>
-        <Route path='/' element={<AdminPage/>}></Route>
-        <Route path='/menu' element={<MenuPage/>}></Route>
-        <Route path='/bajada' element={<BajadaPage/>}></Route>
-        <Route path='/footer' element={<FooterPage/>}></Route>
+
+        <Route path='/Login' element={<LoginPage/>}></Route>
+
 
         </Routes>
         </BrowserRouter>
