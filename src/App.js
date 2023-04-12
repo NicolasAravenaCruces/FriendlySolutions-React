@@ -1,21 +1,21 @@
 import React from "react";
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import AdminPage from "./pages/AdminPage";
-import MenuPage from "./pages/MenuPage";
+import UsuarioPage from "./pages/UsuarioPage";
+import EmpresaPage from "./pages/EmpresaPage";
 
 
 
 
 
 const App = () => {
-    //comentario fuera del return 
+    //rutas de las paginas
     return(
         <BrowserRouter>
         <Routes>
         <Route path='/' element={<AdminPage/>}></Route>
-        <Route path='/menu' element={<MenuPage/>}></Route>
-       
-
+        <Route path='/premioUsuario' element={<UsuarioPage/>}></Route>
+        <Route path='/premioEmpresa' element={<EmpresaPage/>}></Route>
         </Routes>
         </BrowserRouter>
     )
