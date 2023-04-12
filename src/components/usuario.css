@@ -1,0 +1,141 @@
+/*css del top 3*/
+#top .row {
+    margin: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#top .card-img-top {
+    border-radius: 50%;
+    border: 10px solid #C0C0C0;
+}
+
+#top .card-img-top-1 {
+    border-radius: 50%;
+    border: 10px solid #ffbf00;
+}
+
+#top .card-img-top-2 {
+    border-radius: 50%;
+    border: 10px solid #Cd7f32;
+}
+
+
+#top .primer{
+    margin-top: 100px;
+    border-color: white;
+}
+
+#top .segundo{
+    margin-top: -50px;
+    border-color: white;
+
+}
+
+#top .tercer{
+    margin-top: 100px;
+    border-color: white;
+}
+
+#top .card-img-top-centro{
+    width: 40%;
+    height: auto;
+}
+
+#top .card-body-centro{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#top .card-img-top-izqui{
+    width: 40%;
+    height: auto;
+}
+
+#top .card-body-centro-izqui{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#top .card-img-top-der{
+    width: 40%;
+    height: auto;
+}
+
+#top .card-body-centro-der{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+/*css del top 3*/
+
+
+/*css de imagen de la lista de tops 3*/
+.img-fluid{
+    height: 70;
+    width:70;
+
+}
+
+/*css de imagen de la lista de tops 3*/
+
+
+
+.img-fluid-personita{
+    border-radius: 50%;
+    width: 60%;
+    height: auto;
+}
+
+.card-text-personalogin{
+    margin: auto;
+    margin-left: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+
+.personaloginn{
+    background-image: linear-gradient(to right, #0dca93, #0ea57e, #178268, #1d5f50);
+}
+
+/*css recordar como reciclar*/
+
+#memoria .imagenbonita{
+    object-fit: cover;
+    height: 300px;
+    margin-top: 20px; 
+  }
+
+#memoria{
+    background: linear-gradient(to right, #0dca93, #0ea57e, #178268, #1d5f50);
+}
+
+
+#memoria .otracosa{
+    margin: 10px;
+}
+
+/*css recordar como reciclar*/
+
+#trabajador .container div.col {
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }

@@ -1,0 +1,40 @@
+#MiEmpresa .lista{
+    margin-top: 60px;
+}
+
+#MiEmpresa .card-img{
+    width: 70%;
+    height: auto;
+}
+
+#MiEmpresa .container-2{
+    margin-top: 30px;
+}
+
+#MiEmpresa .row{
+    margin: 50px;
+}
+
+#MiEmpresa .color-menu{
+    background-image: linear-gradient(to right, #0dca93, #0ea57e, #178268, #1d5f50);
+}
+
+
+#menu a{
+    color:white !important;
+    font-weight: bold;
+}
+
+#menu img{
+    max-width: 180px;
+}
+
+#MiEmpresa .card-img-top{
+    object-fit: cover;
+    height: 300px;
+
+}
+
+.card-title{
+    font-weight: bold;
+}
