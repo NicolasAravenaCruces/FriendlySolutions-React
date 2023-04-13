@@ -29,6 +29,5 @@ export{
     FooterEmpresa,
     MiEmpresa,
     MiReciclaje,
-    FooterEmpresa,
     Login
 }
