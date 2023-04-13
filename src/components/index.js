@@ -3,6 +3,7 @@ import Bajada from "./Bajada";
 import Footer from "./Footer";
 import VistaEmpresaUno from "./VistaEmpresaUno";
 import VistaEmpresaDos from "./VistaEmpresaDos"
+import ComoReciclar from "./ComoReciclar";
 import MenuUsuario from "./MenuUsuario";
 import PremioUsuario from "./PremioUsuario";
 import FooterUsuario from "./FooterUsuario";
@@ -18,6 +19,7 @@ export{
     Footer,
     VistaEmpresaUno,
     VistaEmpresaDos,
+    ComoReciclar,
     MenuUsuario,
     PremioUsuario,
     FooterUsuario,
@@ -25,5 +27,8 @@ export{
     PremioEmpresa,
     FooterEmpresa,
     MiEmpresa,
-    MiReciclaje
+    MiReciclaje,
+    FooterEmpresa
+
+    
 }

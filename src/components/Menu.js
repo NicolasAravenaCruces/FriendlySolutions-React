@@ -25,7 +25,7 @@ const Menu=()=>{
                             <a class="nav-link active" aria-current="page" href="/#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/#">Como Reciclar</a>
+                            <a class="nav-link" href="/ComoReciclar">Como Reciclar</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/#">Nosotros</a>
