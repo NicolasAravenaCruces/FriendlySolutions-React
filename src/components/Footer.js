@@ -11,7 +11,7 @@ const Footer = () => {
                         <img src={logo} alt="Tu logo" />
                     </div>
                     <div class="col-md-3 ">
-                        <h5>Pagina</h5>
+                        <h5>Página</h5>
                         <ul class="list-unstyled">
                             <li><a href="/#">Nosotros</a></li>
                             <li><a href="/#">Inicia Sesión</a></li>
