@@ -1,9 +1,13 @@
 import React from "react";
-import { VistaEmpresaDos } from "../components";
+import { VistaEmpresaDos, MenuEmpresa, FooterEmpresa } from "../components";
 
 const VistaEmpresaDosPage=()=>{
     return(
-        <VistaEmpresaDos/>
+        <div> 
+         <MenuEmpresa/>
+         <VistaEmpresaDos/>
+         <FooterEmpresa/>
+        </div>
     )
 }
 export default VistaEmpresaDosPage;

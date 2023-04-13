@@ -1,9 +1,14 @@
 import React from "react";
-import { VistaEmpresaUno } from "../components";
+import { VistaEmpresaUno, MenuEmpresa, FooterEmpresa } from "../components";
 
 const VistaEmpresaUnoPage=()=>{
     return(
-        <VistaEmpresaUno/>
+        <div> 
+         <MenuEmpresa/>
+         <VistaEmpresaUno/>
+         <FooterEmpresa/>
+        </div>
+        
     )
 }
 export default VistaEmpresaUnoPage;
