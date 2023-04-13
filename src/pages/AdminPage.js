@@ -3,8 +3,10 @@ import { Menu,Bajada,Footer} from "../components";
 
 
 const AdminPage=()=>{
+    //comentario
     return(
         <div>
+            <Menu/>
             <Menu/>
             <Bajada/>
             <Footer/>
