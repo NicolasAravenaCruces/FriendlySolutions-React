@@ -1,0 +1,8 @@
+img {
+    display: inline-block;
+    width: 40%; /* ajusta el ancho según tus necesidades */
+    height: auto; /* para mantener la proporción de aspecto de la imagen */
+  }
+  div {
+    text-align: center;
+  }

@@ -1,6 +1,8 @@
 import Menu from "./Menu";
 import Bajada from "./Bajada";
 import Footer from "./Footer";
+import VistaEmpresaUno from "./VistaEmpresaUno";
+import VistaEmpresaDos from "./VistaEmpresaDos"
 import MenuUsuario from "./MenuUsuario";
 import PremioUsuario from "./PremioUsuario";
 import FooterUsuario from "./FooterUsuario";
@@ -14,6 +16,8 @@ export{
     Menu,
     Bajada,
     Footer,
+    VistaEmpresaUno,
+    VistaEmpresaDos,
     MenuUsuario,
     PremioUsuario,
     FooterUsuario,
