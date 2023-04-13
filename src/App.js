@@ -6,12 +6,15 @@ import BajadaPage from "./pages/BajadaPage";
 import FooterPage from "./pages/FooterPage";
 import MiEmpresaPage from './pages/MiEmpresaPage';
 import MiReciclajePage from './pages/MiReciclajePage';
+import UsuarioPage from "./pages/UsuarioPage";
+import EmpresaPage from "./pages/EmpresaPage";
+
 
 
 
 
 const App = () => {
-    //comentario fuera del return 
+    //rutas de las paginas
     return(
         <BrowserRouter>
         <Routes>
@@ -22,6 +25,8 @@ const App = () => {
         <Route path='/MiEmpresa' element={<MiEmpresaPage />}></Route>
         <Route path='/MiReciclaje' element={<MiReciclajePage />}></Route>
 
+        <Route path='/premioUsuario' element={<UsuarioPage/>}></Route>
+        <Route path='/premioEmpresa' element={<EmpresaPage/>}></Route>
         </Routes>
         </BrowserRouter>
     )
