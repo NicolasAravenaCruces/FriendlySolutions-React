@@ -9,6 +9,8 @@ import ComoReciclarPage from "./pages/ComoReciclarPage";
 import UsuarioPage from "./pages/UsuarioPage";
 import EmpresaPage from "./pages/EmpresaPage";
 
+import LoginPage from "./pages/LoginPage";
+
 
 
 
@@ -23,6 +25,9 @@ const App = () => {
         <Route path='/vistaempresados' element={<VistaEmpresaDosPage/>}></Route>
         <Route path='/vistaempresauno' element={<VistaEmpresaUnoPage/>}></Route>
         <Route path='/ComoReciclar' element={<ComoReciclarPage/>}></Route>
+
+        <Route path='/Login' element={<LoginPage/>}></Route>
+
 
         <Route path='/premioUsuario' element={<UsuarioPage/>}></Route>
         <Route path='/premioEmpresa' element={<EmpresaPage/>}></Route>

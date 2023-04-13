@@ -12,6 +12,7 @@ import PremioEmpresa from "./PremioEmpresa";
 import FooterEmpresa from "./FooterEmpresa";
 import MiEmpresa from "./MiEmpresa";
 import MiReciclaje from "./MiReciclaje";
+import Login from "./Login";
 
 export{
     Menu,
@@ -28,7 +29,6 @@ export{
     FooterEmpresa,
     MiEmpresa,
     MiReciclaje,
-    FooterEmpresa
-
-    
+    FooterEmpresa,
+    Login
 }
