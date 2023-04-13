@@ -1,0 +1,13 @@
+.custom-card {
+    background-color: #a5a7bd;
+    border: 1px solid #1d362f;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .custom-card-body {
+    font-size: 100px;
+    color: #d9df7d;
+    text-align: center;
+  }

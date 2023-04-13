@@ -4,7 +4,8 @@ import AdminPage from "./pages/AdminPage";
 import MenuPage from "./pages/MenuPage";
 import BajadaPage from "./pages/BajadaPage";
 import FooterPage from "./pages/FooterPage";
-
+import VistaEmpresaUnoPage from "./pages/VistaEmpresaUnoPage";
+import VistaEmpresaDosPage from "./pages/VistaEmpresaDosPage";
 
 
 
@@ -17,7 +18,8 @@ const App = () => {
         <Route path='/menu' element={<MenuPage/>}></Route>
         <Route path='/bajada' element={<BajadaPage/>}></Route>
         <Route path='/footer' element={<FooterPage/>}></Route>
-
+        <Route path='/vistaempresados' element={<VistaEmpresaDosPage/>}></Route>
+        <Route path='/vistaempresauno' element={<VistaEmpresaUnoPage/>}></Route>
         </Routes>
         </BrowserRouter>
     )
