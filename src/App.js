@@ -6,11 +6,15 @@ import BajadaPage from "./pages/BajadaPage";
 import FooterPage from "./pages/FooterPage";
 import VistaEmpresaUnoPage from "./pages/VistaEmpresaUnoPage";
 import VistaEmpresaDosPage from "./pages/VistaEmpresaDosPage";
+import UsuarioPage from "./pages/UsuarioPage";
+import EmpresaPage from "./pages/EmpresaPage";
+
+
 
 
 
 const App = () => {
-    //comentario fuera del return 
+    //rutas de las paginas
     return(
         <BrowserRouter>
         <Routes>
@@ -20,6 +24,8 @@ const App = () => {
         <Route path='/footer' element={<FooterPage/>}></Route>
         <Route path='/vistaempresados' element={<VistaEmpresaDosPage/>}></Route>
         <Route path='/vistaempresauno' element={<VistaEmpresaUnoPage/>}></Route>
+        <Route path='/premioUsuario' element={<UsuarioPage/>}></Route>
+        <Route path='/premioEmpresa' element={<EmpresaPage/>}></Route>
         </Routes>
         </BrowserRouter>
     )
