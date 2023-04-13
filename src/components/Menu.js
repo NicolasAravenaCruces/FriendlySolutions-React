@@ -22,16 +22,16 @@ const Menu=()=>{
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav mb-2 mb-lg-0 offset-md-7">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/#">Inicio</a>
+                            <a class="nav-link active" aria-current="page" href="/">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/ComoReciclar">Como Reciclar</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/#">Nosotros</a>
+                            <a class="nav-link" href="/">Nosotros</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/#">Iniciar Sesión</a>
+                            <a class="nav-link" href="/Login">Iniciar Sesión</a>
                         </li>
                     </ul>
                 </div>

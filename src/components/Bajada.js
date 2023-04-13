@@ -62,7 +62,7 @@ const Bajada = () => {
                                 proporcionaremos información precisa y actualizada sobre cómo reciclar de manera adecuada y
                                 contribuir a la protección del medio ambiente. Sigue nuestras guías paso a paso
                                 y conviértete en un experto en el reciclaje de distintos materiales.</p>
-                            <a href="/#">Leer mas</a>
+                            <a href="/ComoReciclar">Leer mas</a>
                         </div>
                     </div>
                 </div>

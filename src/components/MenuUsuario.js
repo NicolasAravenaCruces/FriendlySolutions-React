@@ -6,7 +6,7 @@ const MenuUsuario = () => {
     return (
         <nav id="menu" class="navbar navbar-expand-lg color-menu ">
             <div class="container">
-                <a class="navbar-brand" href="/#">
+                <a class="navbar-brand" href="/MiReciclaje">
                     <img src={logoblanco} alt="logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -17,13 +17,13 @@ const MenuUsuario = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#/">Mi Reciclaje</a>
+                            <a class="nav-link active" aria-current="page" href="/MiReciclaje">Mi Reciclaje</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#/">Mi empresa</a>
+                            <a class="nav-link" href="/MiEmpresa">Mi empresa</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#/">Premios</a>
+                            <a class="nav-link" href="/premioUsuario">Premios</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/">Cerrar Sesión</a>

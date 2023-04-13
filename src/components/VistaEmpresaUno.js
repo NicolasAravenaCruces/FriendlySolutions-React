@@ -9,6 +9,11 @@ const VistaEmpresaUno = () => {
       <img src={Dona} alt="Dona" />
       <img src={Gráfico} alt="Gráfico" />
     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
   </div>
   )
 }

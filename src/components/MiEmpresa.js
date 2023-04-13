@@ -3,8 +3,8 @@ import './estiloempresas.css';
 import logoEmpresa from "../imagenes/M530107b1163922b8d701df39d644be7b1679592810417.jpg"
 import imagen1 from "../imagenes/isometric-vector-illustration-a-group-of-people-characters-are-preparing-a-business-project-start-up.jpg"
 import imagen2 from "../imagenes/line-graph-straight-line.png"
-import imagen3 from "../imagenes/R (4).jpg"
 import imagen4 from "../imagenes/Waste_recycling_preview@2x.jpg"
+import conciencia from "../imagenes/conciencia.jpg"
 
 const MiEmpresa = () => {
   return (
@@ -52,7 +52,7 @@ const MiEmpresa = () => {
           </div>
           <div class="col ">
             <div class="card">
-              <img src={imagen3} class="card-img-top " alt="..." />
+              <img src={conciencia} class="card-img-top " alt="..." />
               <div class="card-body">
                 <h5 class="card-title">Generar conciencia</h5>
                 <p class="card-text">Aprendiendo a reciclar correctamente, y así adquirir una mentalidad de reciclaje para aplicarlo e integrarlo a nuestra rutina laboral.</p>

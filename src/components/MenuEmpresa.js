@@ -6,7 +6,7 @@ const MenuEmpresa = () => {
     return (
         <nav id="menu" class="navbar navbar-expand-lg color-menu ">
             <div class="container">
-                <a class="navbar-brand" href="/#">
+                <a class="navbar-brand" href="/vistaempresauno">
                     <img src={logoblanco} alt="logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -17,10 +17,10 @@ const MenuEmpresa = () => {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="/#">Estadísticas</a>
+                            <a class="nav-link active" aria-current="page" href="/vistaempresauno">Estadísticas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/#">Ranking</a>
+                            <a class="nav-link" href="/vistaempresados">Ranking</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/premioEmpresa">Premios</a>

@@ -4,7 +4,7 @@ import logo from "../imagenes/logoblanco.png"
 
 const Footer = () => {
     return (
-        <footer id="footer" class="bg-dark text-white  pt-4 pb-2">
+        <footer id="footer" class="bg-dark text-white  pt-5 pb-2 ">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
@@ -14,7 +14,7 @@ const Footer = () => {
                         <h5>Página</h5>
                         <ul class="list-unstyled">
                             <li><a href="/#">Nosotros</a></li>
-                            <li><a href="/#">Inicia Sesión</a></li>
+                            <li><a href="/Login">Inicia Sesión</a></li>
 
                         </ul>
                     </div>

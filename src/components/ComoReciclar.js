@@ -7,7 +7,7 @@ import Vidrio from '../imagenes/vidrio.jpeg'
 const ComoReciclar =()=>{
     return(
         <div>
-        <h1> Como reciclar ❤</h1>
+        <h1 class="pt-5"> Como Reciclar ❤</h1>
         <div class="contenedor-cards ">
             
         <div class="card col-md-3" >
@@ -22,7 +22,7 @@ const ComoReciclar =()=>{
             </div>
           </div>
           <div class="card col-md-3">
-            <h3 class="subtitulo">Plastico</h3>
+            <h3 class="subtitulo">Plástico</h3>
             <img src={Plastico}class="card-img-top" alt="Imagen de botellas de plastico"/>
             <div class="card-body">
                 <ol>
@@ -44,6 +44,11 @@ const ComoReciclar =()=>{
             </div>
           </div>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         </div>
     )
 

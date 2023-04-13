@@ -4,7 +4,7 @@ import logoblanco from '../imagenes/logoblanco.png'
 
 const FooterEmpresa=()=>{
     return(
-        <footer id="footer" class="bg-dark text-white  pt-4 pb-2">
+        <footer id="footer" class="bg-dark text-white  pt-5 pb-2">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -13,8 +13,8 @@ const FooterEmpresa=()=>{
                 <div class="col-md-3 ">
                     <h5>Pagina</h5>
                     <ul class="list-unstyled">
-                        <li><a href="/#">Estadísticas</a></li>
-                        <li><a href="/#">Ranking</a></li>
+                        <li><a href="/vistaempresauno">Estadísticas</a></li>
+                        <li><a href="/vistaempresados">Ranking</a></li>
                         <li><a href="/premioEmpresa">Premios</a></li>
                         <li><a href="/">Cerrar Sesión</a></li>
 

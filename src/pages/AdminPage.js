@@ -7,7 +7,6 @@ const AdminPage=()=>{
     return(
         <div>
             <Menu/>
-            <Menu/>
             <Bajada/>
             <Footer/>
         </div>
