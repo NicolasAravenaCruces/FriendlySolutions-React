@@ -1,13 +1,10 @@
 import React from "react";
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import AdminPage from "./pages/AdminPage";
-<<<<<<< HEAD
 import MiEmpresaPage from './pages/MiEmpresaPage';
 import MiReciclajePage from './pages/MiReciclajePage';
-=======
 import VistaEmpresaUnoPage from "./pages/VistaEmpresaUnoPage";
 import VistaEmpresaDosPage from "./pages/VistaEmpresaDosPage";
->>>>>>> subidaSu
 import UsuarioPage from "./pages/UsuarioPage";
 import EmpresaPage from "./pages/EmpresaPage";
 
