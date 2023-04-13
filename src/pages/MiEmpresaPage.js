@@ -1,10 +1,13 @@
 import React from "react";
-import MiEmpresa from "../components/MiEmpresa"
-
+import { MenuUsuario, MiEmpresa, FooterUsuario } from "../components";
 
 const MiEmpresaPage =()=>{
     return(
-            <MiEmpresa/>          
+        <div>
+            <MenuUsuario/>
+            <MiEmpresa/>  
+            <FooterUsuario/>  
+        </div>               
     )
 }
 

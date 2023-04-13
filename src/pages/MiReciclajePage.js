@@ -1,10 +1,13 @@
 import React from "react";
-import MiReciclaje from "../components/MiReciclaje";
+import { MenuUsuario, MiReciclaje, FooterUsuario } from "../components";
 
-
-const MiReciclajePage =()=>{
-    return(
-            <MiReciclaje/>          
+const MiReciclajePage = () => {
+    return (
+        <div>
+            <MenuUsuario />
+            <MiReciclaje />
+            <FooterUsuario />
+        </div>
     )
 }
 

@@ -7,6 +7,8 @@ import FooterUsuario from "./FooterUsuario";
 import MenuEmpresa from "./MenuEmpresa";
 import PremioEmpresa from "./PremioEmpresa";
 import FooterEmpresa from "./FooterEmpresa";
+import MiEmpresa from "./MiEmpresa";
+import MiReciclaje from "./MiReciclaje";
 
 export{
     Menu,
@@ -17,8 +19,7 @@ export{
     FooterUsuario,
     MenuEmpresa,
     PremioEmpresa,
-    FooterEmpresa
-
-    
-    
+    FooterEmpresa,
+    MiEmpresa,
+    MiReciclaje
 }
