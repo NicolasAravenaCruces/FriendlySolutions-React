@@ -175,3 +175,13 @@
 #merge{
     background-color: #046a1f;
 }
+
+#imgrafico img{
+    width:500px ;
+    height: 450px;
+}
+
+#descarga img{
+    width: 200px;
+    height: 200px;
+}

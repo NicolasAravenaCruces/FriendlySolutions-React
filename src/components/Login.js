@@ -38,10 +38,10 @@ function Login({ nombre, email, imagen }) {
                         </div>
 
                         <div className="pt-1 mb-4">
-                          <button className="btn btn-dark btn-lg btn-block" type="button">Entrar</button>
+                          <a href='/MiReciclaje'><button className="btn btn-dark btn-lg btn-block" type="button">Entrar</button></a>
                         </div>
 
-                        <a className="small text-muted" href="#!">¿Olvidó su contraseña?</a>
+                        <a className="small text-muted" href="/vistaempresauno">¿Olvidó su contraseña?</a>
 
                       </form>
 
